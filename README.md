@@ -21,5 +21,5 @@ How to run the program (code):
 6. If you guess correctly, the program will tell you "Congratulations, Player 1/2 guessed the word" in however many "letter guesses" or "word guesses" it took for them to get it right.
 7. It will then give the player a final score that corresponds to the number of letter guesses it took before getting the word guess correct.
 8. Afterwards, it will move on to the next player's turn, and the process will start all over again from steps 1-2.
-9. In the case that the player guesses the wrong word 3 times in a row, the player will lose the opportunity to guess for that word further and it will be the next player's turn.
-10. If the player's both make it through all the words in the word bank, the program will quit and tell them that "There are no more words left to guess, game over!"
+9. In the case that the player guesses the wrong word 3 times in a row, the player will lose the opportunity to guess that word further and it will be the next player's turn.
+10. If the players both make it through all the words in the word bank, the program will quit and tell them "There are no more words left to guess, game over!"
