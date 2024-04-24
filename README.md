@@ -8,6 +8,8 @@ Each player has the option to guess what exact letters are in the word at first.
 
 Players will then have the option of guessing the word whenever they want to after guessing a letter during their turn to go. 
 
+Displays the amount of letter guesss and word guesses it took for the players to guess the final word correctly.
+
 Displays final cumulative score after each player is done guessing the words (a lower score is better, which means the player took fewer letter guesses).
 
 The amount of letter guesses and word guesses is reset for the next player after the other player either guesses the word correctly, or guesses the word wrong 3 times. 
