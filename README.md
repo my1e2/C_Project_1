@@ -14,6 +14,10 @@ Displays final cumulative score after each player is done guessing the words (a 
 
 The amount of letter guesses and word guesses is reset for the next player after the other player either guesses the word correctly, or guesses the word wrong 3 times. 
 
+Each time after word is guessed, a new "round" begins until the game is eventually over after all words are guessed for both players.
+
+At the end of all the "rounds" for both players, a bar plot graph is displayed to show the score of both players over each round.
+
 How to run the program (code):
 1. Begin executing the program and guess a letter after being told that it's "Player 1's turn", with the "theme as school supplies".
 2. Guess a possible letter within the randomly selected word from the school supplies word bank.
@@ -25,3 +29,4 @@ How to run the program (code):
 8. Afterwards, it will move on to the next player's turn, and the process will start all over again from steps 1-2.
 9. In the case that the player guesses the wrong word 3 times in a row, the player will lose the opportunity to guess that word further and it will be the next player's turn.
 10. If the players both make it through all the words in the word bank, the program will quit and tell them "There are no more words left to guess, game over!"
+11. At the end, a bar plot graph will dispaly the scores of each player over the 6 rounds of word guessing (lower scores/bars are better, means it took less letter guesses for correct guess).
